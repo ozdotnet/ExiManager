@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ExiManager.Shared.Model
 {
@@ -12,5 +13,7 @@ namespace ExiManager.Shared.Model
 
         [Column("Path")]
         public string Path { get; set; }
+
+        public List<File> Files { get; set; }
     }
 }

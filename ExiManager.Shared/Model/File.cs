@@ -12,5 +12,7 @@ namespace ExiManager.Shared.Model
 
         [Column("File_Name")]
         public string FileName { get; set; }
+
+        public ExiInfo ExiInfo { get; set; }
     }
 }
