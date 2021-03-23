@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ExiManager.Shared.Model
 {
-    public class Folder
+    public class Folder : IDomainObject
     {
         [Column("Folder_Id")]
-        public int FolderId { get; set; }
+        public int Id { get; set; }
 
         [Column("Folder_Name")]
         public string FolderName { get; set; }

@@ -2,10 +2,10 @@
 
 namespace ExiManager.Shared.Model
 {
-    public class File
+    public class File : IDomainObject
     {
         [Column("File_Id")]
-        public int FileId { get; set; }
+        public int Id { get; set; }
 
         [Column("Folder_Id")]
         public int FolderId { get; set; }

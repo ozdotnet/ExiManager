@@ -4,10 +4,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ExiManager.Shared.Model
 {
     [Table("Exi_Info")]
-    public class ExiInfo
+    public class ExiInfo : IDomainObject
     {
         [Column("Exi_Info_Id")]
-        public int ExiInfoId { get; set; }
+        public int Id { get; set; }
 
         [Column("File_Id")]
         public int FileId { get; set; }

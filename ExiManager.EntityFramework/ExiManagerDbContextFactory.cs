@@ -5,7 +5,7 @@ namespace ExiManager.EntityFramework
 {
     public class ExiManagerDbContextFactory : IDesignTimeDbContextFactory<ExiManagerDbContext>
     {
-        public ExiManagerDbContext CreateDbContext(string[] args)
+        public ExiManagerDbContext CreateDbContext(string[] args = null)
         {
             var options = new DbContextOptionsBuilder<ExiManagerDbContext>();
             options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=ExiManagerDB;Trusted_Connection=True;");
