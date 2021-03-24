@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExiManager.Shared", "ExiManager.Shared\ExiManager.Shared.csproj", "{15F7B4DB-93C2-4498-8F36-38CAED460237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExiManager.EntityFramework", "ExiManager.EntityFramework\ExiManager.EntityFramework.csproj", "{4C3EEED5-7F43-47D8-81B9-7C04B5810DC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExiManager.EntityFramework", "ExiManager.EntityFramework\ExiManager.EntityFramework.csproj", "{4C3EEED5-7F43-47D8-81B9-7C04B5810DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExiManager.WPF", "ExiManager.WPF\ExiManager.WPF.csproj", "{B6DC9749-FE6D-4B1F-ACC8-6B1BA7B446FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4C3EEED5-7F43-47D8-81B9-7C04B5810DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C3EEED5-7F43-47D8-81B9-7C04B5810DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C3EEED5-7F43-47D8-81B9-7C04B5810DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DC9749-FE6D-4B1F-ACC8-6B1BA7B446FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DC9749-FE6D-4B1F-ACC8-6B1BA7B446FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DC9749-FE6D-4B1F-ACC8-6B1BA7B446FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DC9749-FE6D-4B1F-ACC8-6B1BA7B446FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
